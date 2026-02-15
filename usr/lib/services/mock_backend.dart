@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:speech_to_text/speech_to_text.dart';
-import 'project.dart';
+import '../models/project.dart';
 
 // Service simulant le Backend Node+Express + Grok + GitHub
 class MockBackendService extends ChangeNotifier {
